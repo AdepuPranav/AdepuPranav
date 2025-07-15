@@ -4,8 +4,8 @@
 
 
 I'm currently working on Optimization of Traffic Management System<br>
-I aspire to become a Game Developer and ML Engineer.
-I'm experienced in delivery engaging videos of all styles.
+I aspire to become a Game Developer and ML Engineer.<br>
+I'm experienced in delivery engaging videos of all styles.<br>
 
 
 ## 🌐 Socials:
