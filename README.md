@@ -3,9 +3,8 @@
 ## Hi, I'm Pranav
 
 
-I'm currently working on Optimization of Traffic Management System<br>
+I'm currently working on Optimization of Bittorrent Client<br>
 I aspire to become a Game Developer and ML Engineer.<br>
-I'm experienced in delivery engaging videos of all styles.<br>
 
 
 ## 🌐 Socials:
