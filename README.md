@@ -21,7 +21,7 @@ Building intelligent systems, immersive games, and real-world tech.
 * 🎮 Building immersive experiences using **Unity & C#**
 * 🤖 Developing AI-powered systems and automation tools
 * ⚙️ .NET enthusiast focused on scalable applications and backend systems
-* 🏆 Hacktoberfest 2024 Runner-Up
+* 🏆 2x Hackathon Winner
 * 🛠 Currently working on:
 
   * BitTorrent Client Optimization
