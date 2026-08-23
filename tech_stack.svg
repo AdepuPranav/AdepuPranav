@@ -1,0 +1,47 @@
+<svg width="440" height="180" viewBox="0 0 440 180" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgtech" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="blobAtech" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b0b0b0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#b0b0b0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobBtech" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurtech" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="edgeglowtech" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <linearGradient id="glasstech" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.025"/>
+    </linearGradient>
+    <linearGradient id="edgegradtech" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+    <clipPath id="cliptech">
+      <rect x="0" y="0" width="440" height="180" rx="22"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#cliptech)">
+    <rect width="440" height="180" fill="url(#bgtech)"/>
+    <circle cx="80" cy="40" r="90" fill="url(#blobAtech)" filter="url(#blurtech)"/>
+    <circle cx="360" cy="190" r="100" fill="url(#blobBtech)" filter="url(#blurtech)"/>
+    <rect width="440" height="180" fill="url(#glasstech)"/>
+  </g>
+  <rect x="2" y="2" width="436" height="176" rx="21" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="3" filter="url(#edgeglowtech)"/>
+  <rect x="1" y="1" width="438" height="178" rx="22" fill="none" stroke="url(#edgegradtech)" stroke-width="1.4"/>
+  <text x="30" y="48" font-family="Fira Code, Consolas, monospace" font-size="19" font-weight="700" fill="#f5f5f5">⚡ Tech Stack</text>
+  <text x="30" y="82" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; C#, C, Python, Java, Dart</text>
+  <text x="30" y="108" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; .NET, Flutter, Unity</text>
+  <text x="30" y="134" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; Firebase, Azure, Git/GitHub</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="440" height="230" viewBox="0 0 440 230" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgexplore" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="blobAexplore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobBexplore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8d8d8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d8d8d8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurexplore" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="edgeglowexplore" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <linearGradient id="glassexplore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.025"/>
+    </linearGradient>
+    <linearGradient id="edgegradexplore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+    <clipPath id="clipexplore">
+      <rect x="0" y="0" width="440" height="230" rx="22"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clipexplore)">
+    <rect width="440" height="230" fill="url(#bgexplore)"/>
+    <circle cx="80" cy="40" r="90" fill="url(#blobAexplore)" filter="url(#blurexplore)"/>
+    <circle cx="360" cy="190" r="100" fill="url(#blobBexplore)" filter="url(#blurexplore)"/>
+    <rect width="440" height="230" fill="url(#glassexplore)"/>
+  </g>
+  <rect x="2" y="2" width="436" height="226" rx="21" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="3" filter="url(#edgeglowexplore)"/>
+  <rect x="1" y="1" width="438" height="228" rx="22" fill="none" stroke="url(#edgegradexplore)" stroke-width="1.4"/>
+  <text x="30" y="48" font-family="Fira Code, Consolas, monospace" font-size="19" font-weight="700" fill="#f5f5f5">🧩 Currently Exploring</text>
+  <text x="30" y="82" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; Machine Learning</text>
+  <text x="30" y="108" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; Advanced Unity Systems</text>
+  <text x="30" y="134" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; AI Agents</text>
+  <text x="30" y="160" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; Distributed Systems</text>
+  <text x="30" y="186" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#a8a8a8">&#8226; BitTorrent Optimization</text>
+</svg>
