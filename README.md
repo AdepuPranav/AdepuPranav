@@ -3,7 +3,7 @@
 <img src="banner-retro.png" alt="Adepu Pranav — Backend & .NET Developer" width="100%" />
 
 <a href="https://www.linkedin.com/in/adepu-pranav"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:adepupranav@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:adepupranav17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
@@ -54,6 +54,3 @@ Built an automation tool to read and interpret railway signals across 3+ operati
 
 ---
 
-<sub>Outside backend work I build games in Unity. See <a href="https://github.com/AdepuPranav/Skyline-Dash">Skyline-Dash</a> 🎮</sub>
-
-<img src="https://komarev.com/ghpvc/?username=AdepuPranav&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
